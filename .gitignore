@@ -1,0 +1,140 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+results.html
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# PyCharm
+.idea
+.run
+
+# snapshots
+*.tar
+
+# pylint config is left at dev's discretion, CI uses ruff/isort/black instead
+.pylintrc
+
+# VSCode
+.vscode/
+
+# NNCF debug
+nncf_debug/
+
+# NNCF examples
+examples/torch/object_detection/eval/
+examples/post_training_quantization/onnx/mobilenet_v2/mobilenet_v2_*
+examples/post_training_quantization/openvino/mobilenet_v2/mobilenet_v2_*
+examples/post_training_quantization/tensorflow/mobilenet_v2/mobilenet_v2_*
+examples/post_training_quantization/torch/mobilenet_v2/mobilenet_v2_*
+examples/post_training_quantization/torch/ssd300_vgg16/ssd300_vgg16_*
+examples/post_training_quantization/openvino/anomaly_stfpm_quantize_with_accuracy_control/stfpm_*
+examples/post_training_quantization/openvino/yolov8/yolov8n*
+examples/post_training_quantization/openvino/yolov8_quantize_with_accuracy_control/yolov8n*
+examples/**/runs/**
+examples/**/results/**
+compressed_graph.dot
+original_graph.dot
+datasets/**
+
+# Tests
+tests/**/runs/**
+tests/**/tmp*/**
+open_model_zoo/
+nncf-tests.xml
